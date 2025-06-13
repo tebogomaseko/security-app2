@@ -2,10 +2,9 @@ body{
 
     background-image:url(Screenshot\ 2025-06-12\ 161508.png);
     background-repeat: no-repeat;
+    background-size: 100%;
     size: inherit;
     size-adjust:inherit;
-    width: 100%;
-    height:100%;
 
 }
 
