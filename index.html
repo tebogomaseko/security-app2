@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SECURITY-APP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>TEBOGO'S HOME SECURITY</h1>
+    <form>
+       <label for="Usernameinput">Username:</label><input type="text" id="Usernameinput"/><br/>
+       <label for="Passwordinput">Password :</label><input type="password" id="Passwordinput"/>
+       <p id="message"></p>
+        <a href="#" onclick="credentialsverification()">LOG IN</a>
+    </form>
+
+    <script>
+
+  function credentialsverification()
+  {
+    var username = document.getElementById("Usernameinput").value;
+    var password = document.getElementById("Passwordinput").value;
+
+    if(username=="Tebogo" && password=="user80")
+  {
+    
+    window.location.href="homescreen.html";
+  }
+
+  else
+  {
+    document.getElementById("message").innerHTML = ("incorrect login details");
+  }
+  }
+
+    </script>
+</body>
+</html>
