@@ -3,8 +3,24 @@ body{
     background-image:url(Screenshot\ 2025-06-12\ 161508.png);
     background-repeat: no-repeat;
     background-size:cover;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  margin: 0;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
     
 
+}
+
+form {
+  width: 300px;
+  max-width: 90%;
+  background-color: rgba(255, 255, 255, 0.1); /* Optional: for contrast */
+  padding: 20px;
+  border-radius: 10px;
 }
 
 a{
@@ -35,6 +51,11 @@ input{
     background-color:transparent;
     border-color: white;
     border-radius: 50px;
+    width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+
     
 
 }
@@ -44,4 +65,18 @@ h1{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     padding-left: 400px;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+  }
 }
