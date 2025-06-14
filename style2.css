@@ -73,3 +73,10 @@ a{
     color: black;
     font-size:3.7vh;
 }
+
+a:hover{
+
+    background-color:none;
+    color: whitesmoke;
+
+}
