@@ -15,7 +15,7 @@ body{
 }
 td{
 
-    border-radius: 70px;
+    border-radius: 7vh;
     border-color: transparent;
     width:30vw;
     height:25vh;
@@ -35,7 +35,7 @@ tr{
 table
 {
     border-color: transparent;
-    font-size: 33px;
+    font-size: 4vh;
     text-align: center;
     border-spacing: 10px;
    
@@ -54,7 +54,7 @@ label
 {
 
     color: white;
-    font-size: 20px;
+    font-size: 3.5vh;
 }
 
 .table3:hover
