@@ -4,7 +4,6 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
     display: flex;
-  justify-content: center;
   align-items: center;
   height: 100vh; /* Full screen height */
   margin: 0;
@@ -17,18 +16,18 @@ body{
 form {
   width: 300px;
   max-width: 90%;
-  background-color: rgba(255, 255, 255, 0.1); /* Optional: for contrast */
+  background-color:transparent;
   padding: 20px;
   border-radius: 10px;
+  justify-content: center;
 }
 
 a{
     
-    font-size: 20px;
-    padding-block: 10px;
+    font-size: 5vh;
+    padding-block: 10%;
     text-decoration: none;
     color: white;
-    /*padding-left: 80px;*/
 
 }
 
@@ -39,9 +38,8 @@ a:hover{
 
 form{
 
-    padding-top: 200px;
-   /* padding-left: 530px;*/
-    font-size: 25px;
+    padding-top: 50vh;
+    font-size: 5vh;
     background-color: none;
 }
 
@@ -63,6 +61,9 @@ h1{
 
     color: white;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 7vh;
+    position: top;
+    position: fixed;
     
   
 }
