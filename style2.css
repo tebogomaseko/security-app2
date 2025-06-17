@@ -15,10 +15,10 @@ body{
 }
 td{
 
-    border-radius: 7vh;
+    border-radius: 4vh;
     border-color: transparent;
-    /*width:30vw;*/
-    height:25vh;
+    width:17vh;
+    height:23vh;
      background-color:cadetblue;
      border-spacing: 10px;
      position: center;
