@@ -16,7 +16,7 @@ body{
 
 td{
 
-    border-radius: 70px;
+    border-radius: 4vh;
     border-color: transparent;
     width:400px;
     height:170px;
@@ -47,7 +47,7 @@ h1{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
     position:top;
-    font-size: 6vw;
+    font-size: 5vh;
     
 }
 
@@ -55,13 +55,13 @@ label
 {
 
     color: white;
-    font-size: 2vh;
+    font-size: 1.3vh;
 }
 
 .table2
 {
     padding-top: 180px;
-    font-size: 20px;
+    font-size: 1.3vh;
     
     table
 {
@@ -100,7 +100,7 @@ td{
 a{
     text-decoration: none;
     color: black;
-    font-size:3.7vh;
+    font-size:2.5vh;
 }
 
 a:hover{
